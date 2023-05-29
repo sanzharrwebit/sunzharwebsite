@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  min-width: 1200px;
+}
+section{
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+* {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+header {
+  background-image: url("https://million-wallpapers.ru/wallpapers/3/0/482859899897545.jpg");
+}
+.header-links {
+  padding: 34px 0;
+  text-align: auto;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header-links a {
+  color: white;
+  margin-left: 16px;
+}
+.container button{
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+    background: linear-gradient( 10000deg, #a200ff,  #00e1ff);
+  border: none;
+  
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-animation: breathing 3s ease-out infinite;
+  animation: breathing 3s ease-out infinite;
+  }
+  .container button:hover{
+    background: linear-gradient(10000deg, #00e1ff,   #a200ff);
+  }
+  
+  @-webkit-keyframes breathing{
+    0%{
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    25%{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    60%{
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+.port {
+  background-color: #f8f8f8;
+}
+
+.port-inner {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.port-inner h1 {
+  font-size: 36px;
+}
+
+.port-inner p {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 70px;
+}
+
+.port-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.port-images img {
+  width: 23%;
+}
+.sub-inner {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.sub-input {
+  width: 488px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 #999;
+}
+.sub-input input {
+  width: 60%;
+  padding: 12px 36px;
+  outline: none;
+  font-size: 12px;
+  border: none;
+}
+
+.sub-input span {
+  width: 40%;
+  padding: 12px;
+  background-color: black;
+
+  font-size: 16px;
+
+  color: white;
+}
+
+.sub-inner p {
+  color: #999;
+}
+
+.footer {
+  background-color: white;
+}
+
+.footer-content {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-item {
+  color: #999;
+  font-size: 14px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-item {
+  padding: 15px 0;
+}
+
+.footer-l {
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #999;
+}
